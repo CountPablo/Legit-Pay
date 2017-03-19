@@ -3,75 +3,84 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_4d30968aacf5419e61409d35691e9579c42bcdba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_4a49e7a118394e6da1005c3066ecdc8c47b1fec5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_d04efd0a3a8500c9b0a5532145da453b1bdf91da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_2d03ab8c473fa6f9b4362b0b75edd34b649c1363\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c3dc4fe774099645174009c64b4f760be9ff680f">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7c5bc7b2231418115b4a11df8f9672fa0b6d0871\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c832f62dd013177c17e8a56581009dce9e76dcb0">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_eb1c2689fbe1f493145a5d12c64792d8b10247e3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_b0f81cbb3b779f84531a8ac81a892f9a37ae1ea2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_88f402804051efbb3ce17c3ef28f0c457d61153c\classes.dex" />
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_510d5654ed2f4db12462d22836327974dd604358\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_8b0061e49ed7fe929e60519d6120ee4b1a741790\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26a3a7ae5ce2708f6f87d2517026ad1436a07df3">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b4552c19e441257403ec07b8ba74813623a1e49f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_ddb65fe969a28bb36cd47dfe03b4357590bb3563\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_67ee5ead6144185d6b80a2c0f9a9bf469800ce95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_ff0b6fbe4cac5db53fe2435de59945219311ab39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_7cf9f6e059bc99bd62cfa27a5c58e08752fb5909\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_b5913537c09f3f5a829b72c3dd826c8fb8e4a836\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af8eae6a11de960e6180505c3e3ba4de4d66fb42">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6947d474dac8bb9b04a9e075ee7f8779d2859005\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -80,34 +89,52 @@
         optimize="true"
         revision="25.0.2"
         sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_5fcbbf6359157379a97b9dd74db463ccb48af9e4\classes.dex" />
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_5fcbbf6359157379a97b9dd74db463ccb48af9e4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_12ff7f9d3120c7e94eeb66528ae95681e5ae4c28\classes.dex" />
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_a4409818fa5ab8793664ca72d9f315d7e623226a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_3fff4912eb2530275960e9349c48fac05282886a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_cd481c1dbf7bf29c8a52768189afc784cb63ff88\classes.dex" />
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_cdbd8bd2c221b4fcb0669146101f5ec7f130e703\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_cd14f58dcfc595edf54c39e99358acb8418ff1ce\classes.dex" />
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_d181aa5d2d29491e3034b65f57567519e7adcb09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\PABLO\AndroidStudioProjects\LegitPay\Legit-Pay\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_3b5cde97c6ffd060fa9021a665ca24f8db46308b\classes.dex" />
     </item>
 
 </items>
