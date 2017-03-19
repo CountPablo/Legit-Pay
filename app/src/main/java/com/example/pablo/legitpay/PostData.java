@@ -41,28 +41,28 @@ public class PostData {
     }
 
     public String getImgSource1(){
-        return this.ImgSource1
+        return this.ImgSource1;
     }
 
     public String getImgSource2(){
-        return this.ImgSource2
+        return this.ImgSource2;
     }
 
     public String getImgSource3(){
-        return this.ImgSource3
+        return this.ImgSource3;
     }
 
     public String getRank(){
-        return this.Rank
+        return this.Rank;
     }
 
 
     public int getLegitNum(){
-        return this.legitNum
+        return this.legitNum;
     }
 
     public int getFakeNum(){
-        return this.fakeNum
+        return this.fakeNum;
     }
 
 
