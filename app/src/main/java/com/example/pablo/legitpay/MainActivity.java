@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, profileScreen.class);
         startActivity(intent);
     }
+
+    public void openShowroom(View view){
+        Intent intent = new Intent(this, ShowroomActivity.class);
+        startActivity(intent);
+    }
 }

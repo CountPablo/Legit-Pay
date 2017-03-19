@@ -3,6 +3,33 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_7e84cba2e7a1213af93341ea1cb400ba40b39593.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_14bf7cd3d6508a890c322a74d6caf78d861b7c12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_4a0b1c43ee139d717b2694c5641f7a7cfddea4a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,12 +66,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_d8b9238a67b68d2c57e54a26e211101b3f90aed0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_9777f024ccc4481b98259d92dd20161b3738f256.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_d90d8ce9a631615c6c4dd468f090f7f2b8b03bf0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,39 +102,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jar="C:\Users\Milan\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_14bf7cd3d6508a890c322a74d6caf78d861b7c12.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_4a0b1c43ee139d717b2694c5641f7a7cfddea4a5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_d8b9238a67b68d2c57e54a26e211101b3f90aed0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_d90d8ce9a631615c6c4dd468f090f7f2b8b03bf0.jar" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_cc04dc3c9c7e181ddde10d95460fdd1cca92b6cc.jar" />
     </item>
 
 </items>
