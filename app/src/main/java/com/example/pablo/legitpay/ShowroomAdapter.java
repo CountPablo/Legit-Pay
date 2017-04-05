@@ -1,6 +1,7 @@
 package com.example.pablo.legitpay;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -69,7 +70,9 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
                 fakeText.setText(postData.getFakeNumAsStr());
                 break;
             case R.id.show_butt:
-                
+                Intent intent = new Intent(myContext,PostViewActivity.class);
+                intent.putExtra("data",postData.getBundle());
+                myContext.startActivity(intent);
                 break;
             case R.id.image1:
                 break;

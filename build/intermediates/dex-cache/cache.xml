@@ -57,21 +57,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Milan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_9c32ec5db7e50a94a96f6a674b6e401e6698715b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
         <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.0_91a55a4b6e8ccaec6d26eb7461a933e17804989f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Milan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\Milan\Documents\GitHub\Legit-Pay\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_9c32ec5db7e50a94a96f6a674b6e401e6698715b.jar" />
     </item>
     <item
         is-multidex="false"

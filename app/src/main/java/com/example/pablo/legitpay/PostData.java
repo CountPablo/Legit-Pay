@@ -1,5 +1,7 @@
 package com.example.pablo.legitpay;
 
+import android.os.Bundle;
+
 /**
  * Created by Milan on 3/19/2017.
  */
@@ -26,6 +28,18 @@ public class PostData {
         this.Rank = Rank;
         this.legitNum = legitNum;
         this.fakeNum = fakeNum;
+    }
+
+    public PostData(Bundle bundle){
+        this.prodDescrip = bundle.getString("prodDescrip");
+        this.prodTime =bundle.getString("prodTime");
+        this.poster =bundle.getString("poster");
+        this.Rank =bundle.getString("Rank");
+        this.ImgSource1 = bundle.getInt("Img1");
+        this.ImgSource2 =bundle.getInt("Img2");
+        this.ImgSource3 =bundle.getInt("Img3");
+        this.legitNum =bundle.getInt("legitNum");
+        this.fakeNum =bundle.getInt("fakeNum");
     }
 
     public String getProdDescrip(){
@@ -73,5 +87,18 @@ public class PostData {
         return Integer.toString(this.legitNum);
     }
 
+    public Bundle getBundle() {
+        Bundle bundle = new Bundle();
+        bundle.putString("prodDescrip", prodDescrip);
+        bundle.putString("prodTime", prodTime);
+        bundle.putString("poster", poster);
+        bundle.putString("Rank", Rank);
+        bundle.putInt("Img1", ImgSource1);
+        bundle.putInt("Img2", ImgSource1);
+        bundle.putInt("Img3", ImgSource1);
+        bundle.putInt("legitNum", legitNum);
+        bundle.putInt("fakeNum", fakeNum);
+        return bundle;
+    }
 
 }
