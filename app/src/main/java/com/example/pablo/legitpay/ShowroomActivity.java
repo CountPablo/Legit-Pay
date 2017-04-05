@@ -24,25 +24,34 @@ public class ShowroomActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.itemList);
         postDatas = new ArrayList<PostData>();
 
-        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", "1", "2", "3", "PLATINUM", 25, 10));
-        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", "1", "2", "3", "PLATINUM", 25, 10));
-        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", "1", "2", "3", "PLATINUM", 25, 10));
-        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", "1", "2", "3", "PLATINUM", 25, 10));
-        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", "1", "2", "3", "PLATINUM", 25, 10));
-        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", "1", "2", "3", "PLATINUM", 25, 10));
-        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", "1", "2", "3", "PLATINUM", 25, 10));
-        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", "1", "2", "3", "PLATINUM", 25, 10));
-        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", "1", "2", "3", "PLATINUM", 25, 10));
+        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", R.drawable.glitterboots1, R.drawable.glitterboots2,R.drawable.glitterboots3, "PLATINUM", 25, 10));
+        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", R.drawable.glitterboots1, R.drawable.glitterboots2,R.drawable.glitterboots3, "PLATINUM", 25, 10));
+        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", R.drawable.glitterboots1, R.drawable.glitterboots2,R.drawable.glitterboots3, "PLATINUM", 25, 10));
+        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", R.drawable.glitterboots1, R.drawable.glitterboots2,R.drawable.glitterboots3, "PLATINUM", 25, 10));
+        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", R.drawable.glitterboots1, R.drawable.glitterboots2,R.drawable.glitterboots3, "PLATINUM", 25, 10));
+        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", R.drawable.glitterboots1, R.drawable.glitterboots2,R.drawable.glitterboots3, "PLATINUM", 25, 10));
+        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", R.drawable.glitterboots1, R.drawable.glitterboots2,R.drawable.glitterboots3, "PLATINUM", 25, 10));
+        postDatas.add(new PostData("Glitterboots", "2 seconds ago", "Milan", R.drawable.glitterboots1, R.drawable.glitterboots2,R.drawable.glitterboots3, "PLATINUM", 25, 10));
         adapter = new ShowroomAdapter(postDatas, this);
         listView.setAdapter(adapter);
     }
 
-    public void openPost(View view) {
-        Intent intent = new Intent(this, profileScreen.class);
-        startActivity(intent);
+    public void newItem(View view) {
+        postDatas.add(0,new PostData("Glitterboots", "2 seconds ago", "Milan", R.drawable.glitterboots1, R.drawable.glitterboots2,R.drawable.glitterboots3, "PLATINUM", 25, 10));
+        adapter.notifyDataSetChanged();
 
+        listView.post(new Runnable() {
+            @Override
+            public void run() {
+                //listView.smoothScrollToPosition(0);
+            }
+        });
+        //adapter = new ShowroomAdapter(postDatas, this);
+        //listView.setAdapter(adapter);
         }
 
-
-
+    public void viewPost(View view){
+        Intent intent = new Intent(getApplicationContext(),PostViewActivity.class);
+        startActivity(intent);
     }
+}

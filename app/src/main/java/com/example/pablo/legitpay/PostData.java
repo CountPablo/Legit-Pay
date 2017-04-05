@@ -9,14 +9,14 @@ public class PostData {
     String prodDescrip;
     String prodTime;
     String poster;
-    String ImgSource1;
-    String ImgSource2;
-    String ImgSource3;
+    int ImgSource1;
+    int ImgSource2;
+    int ImgSource3;
     String Rank;
     int legitNum;
     int fakeNum;
 
-    public PostData(String prodDescrip, String prodTime, String poster, String ImgSource1, String ImgSource2, String ImgSource3, String Rank, int legitNum, int fakeNum){
+    public PostData(String prodDescrip, String prodTime, String poster, int ImgSource1, int ImgSource2, int ImgSource3, String Rank, int legitNum, int fakeNum){
         this.prodDescrip = prodDescrip;
         this.prodTime = prodTime;
         this.poster = poster;
@@ -40,15 +40,15 @@ public class PostData {
         return this.poster;
     }
 
-    public String getImgSource1(){
+    public int getImgSource1(){
         return this.ImgSource1;
     }
 
-    public String getImgSource2(){
+    public int getImgSource2(){
         return this.ImgSource2;
     }
 
-    public String getImgSource3(){
+    public int getImgSource3(){
         return this.ImgSource3;
     }
 

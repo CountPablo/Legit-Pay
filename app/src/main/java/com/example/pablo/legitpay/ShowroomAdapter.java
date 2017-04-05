@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 /**
@@ -30,6 +32,7 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
         TextView postR;
         TextView numF;
         TextView numL;
+        TextView showButt;
         ImageView img1;
         ImageView img2;
         ImageView img3;
@@ -42,6 +45,7 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
         this.dataSet = data;
         this.myContext = context;
     }
+
 
 
     @Override
@@ -65,6 +69,7 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
                 fakeText.setText(postData.getFakeNumAsStr());
                 break;
             case R.id.show_butt:
+                
                 break;
             case R.id.image1:
                 break;
@@ -103,6 +108,7 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
 
             viewHolder.fakeButt = (Button) convertView.findViewById(R.id.fake_butt);
             viewHolder.legitButt = (Button) convertView.findViewById(R.id.legit_butt);
+            viewHolder.showButt = (TextView) convertView.findViewById(R.id.show_butt);
 
             result = convertView;
 
@@ -121,11 +127,17 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
         viewHolder.postU.setText(postData.getPoster());
         viewHolder.numF.setText(postData.getFakeNumAsStr());
         viewHolder.numL.setText(postData.getLegitNumAsStr());
+        viewHolder.img1.setImageResource(postData.getImgSource1());
+        viewHolder.img2.setImageResource(postData.getImgSource2());
+        viewHolder.img3.setImageResource(postData.getImgSource3());
 
         viewHolder.fakeButt.setOnClickListener(this);
         viewHolder.fakeButt.setTag(position);
         viewHolder.legitButt.setOnClickListener(this);
         viewHolder.legitButt.setTag(position);
+        viewHolder.showButt.setOnClickListener(this);
+        viewHolder.showButt.setTag(position);
+
         return convertView;
     }
 
