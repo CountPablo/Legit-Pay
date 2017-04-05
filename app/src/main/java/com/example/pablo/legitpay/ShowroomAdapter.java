@@ -8,6 +8,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ArrayAdapter;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -32,6 +33,8 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
         ImageView img1;
         ImageView img2;
         ImageView img3;
+        Button legitButt;
+        Button fakeButt;
     }
 
     public ShowroomAdapter(ArrayList<PostData> data, Context context) {
@@ -50,6 +53,7 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
 
         switch (v.getId()) {
             case R.id.legit_butt:
+                postData.legitNum+=1;
                 break;
             case R.id.fake_butt:
                 break;
@@ -90,6 +94,9 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
             viewHolder.img2 = (ImageView) convertView.findViewById(R.id.image2);
             viewHolder.img3 = (ImageView) convertView.findViewById(R.id.image3);
 
+            viewHolder.fakeButt = (Button) convertView.findViewById(R.id.fake_butt);
+            viewHolder.legitButt = (Button) convertView.findViewById(R.id.legit_butt);
+
             result = convertView;
 
             convertView.setTag(viewHolder);
@@ -105,9 +112,9 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
         viewHolder.prodT.setText(postData.getProdTime());
         viewHolder.postR.setText(postData.getRank());
         viewHolder.postU.setText(postData.getPoster());
-        viewHolder.numF.setText(postData.getFakeNum());
-        viewHolder.numL.setText(postData.getLegitNum());
-
+        viewHolder.numF.setText(postData.getFakeNumAsStr());
+        viewHolder.numL.setText(postData.getLegitNumAsStr());
+         
         return convertView;
     }
 

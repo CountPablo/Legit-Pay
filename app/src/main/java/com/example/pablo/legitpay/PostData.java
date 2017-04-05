@@ -65,5 +65,13 @@ public class PostData {
         return this.fakeNum;
     }
 
+    public String getFakeNumAsStr(){
+        return Integer.toString(this.fakeNum);
+    }
+
+    public String getLegitNumAsStr(){
+        return Integer.toString(this.legitNum);
+    }
+
 
 }

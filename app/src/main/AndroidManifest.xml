@@ -17,7 +17,11 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".profileScreen" />
-        <activity android:name=".ShowroomActivity" />
+        <activity android:name=".ShowroomActivity" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".PostActivity"></activity>
     </application>
 
