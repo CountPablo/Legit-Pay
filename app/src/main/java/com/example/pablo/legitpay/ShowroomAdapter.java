@@ -54,8 +54,15 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
         switch (v.getId()) {
             case R.id.legit_butt:
                 postData.legitNum+=1;
+                View parentLegit = (View)v.getParent();
+                TextView legitText = (TextView)parentLegit.findViewById(R.id.legit_num);
+                legitText.setText(postData.getLegitNumAsStr());
                 break;
             case R.id.fake_butt:
+                postData.fakeNum+=1;
+                View parentFake = (View)v.getParent();
+                TextView fakeText = (TextView)parentFake.findViewById(R.id.fake_Num);
+                fakeText.setText(postData.getFakeNumAsStr());
                 break;
             case R.id.show_butt:
                 break;
@@ -114,7 +121,11 @@ public class ShowroomAdapter extends ArrayAdapter<PostData> implements View.OnCl
         viewHolder.postU.setText(postData.getPoster());
         viewHolder.numF.setText(postData.getFakeNumAsStr());
         viewHolder.numL.setText(postData.getLegitNumAsStr());
-         
+
+        viewHolder.fakeButt.setOnClickListener(this);
+        viewHolder.fakeButt.setTag(position);
+        viewHolder.legitButt.setOnClickListener(this);
+        viewHolder.legitButt.setTag(position);
         return convertView;
     }
 
